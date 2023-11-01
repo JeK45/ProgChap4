@@ -30,7 +30,7 @@ public class AT1 {
         txtDeux.setPreferredSize(dimTxt);
 
         btnOK = new JButton("GO");
-        btnOK.addActionListener(e -> btnOKAction8());
+        btnOK.addActionListener(e -> btnOKAction7());
 
         btnQuit = new JButton("Quitter");
         btnQuit.addActionListener(e -> btnQuitAction());
