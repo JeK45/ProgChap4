@@ -18,7 +18,7 @@ class Demo_JFrame {
     }
 
     public static void main(String[] args) {
-        for (int i = 0; i < 256; i++ ) {
+        for (int i = 0; i < 20000; i++ ) {
             Popup popup = new Popup();
         }
     }

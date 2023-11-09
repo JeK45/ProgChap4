@@ -2,16 +2,15 @@ package Cours3;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
 
-class Demo_boutons {
+class Demo_boutons_labels {
 
     JFrame frame;
     JLabel label1;
     JLabel label2;
     JButton btn1, btn2, btn3;
 
-    public Demo_boutons() {
+    public Demo_boutons_labels() {
         frame = new JFrame("Bonjour le big");
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         frame.setMinimumSize(new Dimension(700, 500));
@@ -70,6 +69,6 @@ class Demo_boutons {
         System.exit(69);
     }
     public static void main(String[] args) {
-        new Demo_boutons();
+        new Demo_boutons_labels();
     }
 }
